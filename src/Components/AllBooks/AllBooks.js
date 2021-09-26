@@ -5,6 +5,7 @@ import './AllBooks.css'
 
 const AllBooks = (props) =>
 {
+    // Distructuring
     const { name, author, category, img, page, price } = props.book;
     return (
         <div className="col-md-4">

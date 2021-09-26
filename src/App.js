@@ -7,8 +7,13 @@ function App()
 {
   return (
     <div className="App">
+      {/* Header Start */}
       <Header />
+      {/* Header End */}
+
+      {/* Body Start */}
       <Body />
+      {/* Body End */}
     </div>
   );
 }

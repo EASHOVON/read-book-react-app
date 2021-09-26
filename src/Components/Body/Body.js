@@ -3,8 +3,10 @@ import AllBooks from '../AllBooks/AllBooks';
 import Book from '../Book/Book';
 import './Body.css';
 
+
 const Body = () =>
 {
+    // Data Fetching
     const [books, setBooks] = useState([])
     useEffect(() =>
     {
@@ -14,6 +16,8 @@ const Body = () =>
 
     }, []);
 
+
+    // Adding to AddToRead Handler
     const [addedBook, setAddedBook] = useState([]);
 
 
@@ -49,11 +53,14 @@ const Body = () =>
                     </div>
                 </div>
                 <div className="col-md-3">
-
-                    <div className="side-cart d-flex justify-content-center align-items-center">
-                        <Book addedBook={addedBook}></Book>
+                    <div className="side-cart 
+                        d-flex
+                        justify-content-center
+                        align-items-center">
+                        <Book
+                            addedBook={addedBook}
+                        />
                     </div>
-
                 </div>
             </div>
         </div>
