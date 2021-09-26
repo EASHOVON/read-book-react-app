@@ -8,6 +8,7 @@
   justify-content: space-evenly;
   height: 580px;
   border-radius: 10px;
+  position: relative;
 }
 
 .button {

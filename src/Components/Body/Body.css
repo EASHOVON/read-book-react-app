@@ -1,0 +1,10 @@
+.side-cart {
+  background-color: #ebcd56;
+  border-radius: 10px;
+  width: 349px;
+  min-height: 400px;
+  position: sticky !important;
+  top: 0;
+  margin-left: 15px;
+  padding: 1rem;
+}
