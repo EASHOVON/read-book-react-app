@@ -1,0 +1,11 @@
+.header__container h2 {
+  font-size: 25px;
+}
+.header {
+  background-color: rgba(62, 39, 35, 0.85);
+}
+
+.header h1 {
+  color: white;
+  font-size: 32px;
+}

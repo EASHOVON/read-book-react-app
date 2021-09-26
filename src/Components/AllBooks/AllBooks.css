@@ -1,0 +1,17 @@
+.book-cart {
+  background-color: #ebcd56;
+  text-align: center;
+  padding: 10px;
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 580px;
+  border-radius: 10px;
+}
+
+.button {
+  background-color: rgba(62, 39, 35, 0.85);
+  border: none;
+  color: white;
+}
