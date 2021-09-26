@@ -11,7 +11,6 @@ const Book = (props) =>
 
     return (
         <div>
-
             <h5>Total books: {props.addedBook.length}</h5>
             <h5>Total page will be read: {totalPage}</h5>
             {
