@@ -11,8 +11,8 @@ const Book = (props) =>
 
     return (
         <div>
-            <h5>Total Books: {props.addedBook.length}</h5>
-            <h5>Total Page Will Be Read: {totalPage}</h5>
+            <h5>Total books: {props.addedBook.length}</h5>
+            <h5>Total page will be read: {totalPage}</h5>
             {
                 props.addedBook.map(pd =>
                     <div
