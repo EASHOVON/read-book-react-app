@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Read Book React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project Live Link: [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
